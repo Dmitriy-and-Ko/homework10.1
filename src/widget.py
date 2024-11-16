@@ -35,6 +35,7 @@ print(mask_account_card("карта visa 1234567890123456"))
 print(mask_account_card("счёт 12345678901234567890"))
 print(mask_account_card("Maestro 1234324325465475675645635635"))
 
+
 print(mask_account_card("Maestro 1596837868705199"))
 print(mask_account_card("Счет 64686473678894779589"))
 print(mask_account_card("Master Card 7158300734726758"))
