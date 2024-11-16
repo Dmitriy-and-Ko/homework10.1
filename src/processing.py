@@ -12,7 +12,7 @@ def filter_by_state(dictionary_list: Union[list, dict], state: str = "EXECUTED")
     return sorted_dictionary_list
 
 
-def sort_by_date(list_of_dictionary: Union[list, dict], sort_sequence: bool = False) -> Union[list, dict]:
+def sort_by_date(list_of_dictionary: Union[list, dict], sort_sequence: bool = True) -> Union[list, dict]:
     """Функция, сортирующая список словарей по дате"""
     list_with_date = list()
     for my_dictionary in list_of_dictionary:
